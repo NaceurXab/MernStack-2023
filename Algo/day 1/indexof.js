@@ -1,5 +1,5 @@
 function indexOf(items, searchItem) {
-    if (!(isNaN(searchItem))){
+    if (!(isNaN(searchItem)) || items.length == 0){
         return -1
     }
     else{
@@ -11,5 +11,5 @@ function indexOf(items, searchItem) {
     }
 }
 
-var a = indexOf(["c","a","b"],1);
+var a = indexOf([],"c");
 console.log(a)
