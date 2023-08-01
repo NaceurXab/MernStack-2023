@@ -1,5 +1,5 @@
 function indexOf(items, searchItem) {
-    if (!("A" <= searchItem.ToUpperCase() <= "Z")){
+    if (!(isNaN(searchItem))){
         return -1
     }
     else{
@@ -10,3 +10,6 @@ function indexOf(items, searchItem) {
         }
     }
 }
+
+var a = indexOf(["c","a","b"],1);
+console.log(a)

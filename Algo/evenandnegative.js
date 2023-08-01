@@ -1,7 +1,7 @@
 
 function countEvenNegatives(nums) { 
     var count  = 0;
-    if (nums.length){
+    if (nums.length == 0){
         return 0
     }
     else{
@@ -13,3 +13,6 @@ function countEvenNegatives(nums) {
     }
     return count;
 }
+
+var a = countEvenNegatives([1, 5, -1, 2, -4, 9, -10, 0, -3, -2]);
+console.log(a)
