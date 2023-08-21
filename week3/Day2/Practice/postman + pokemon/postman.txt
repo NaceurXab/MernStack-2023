@@ -1,0 +1,117 @@
+https://pokeapi.co/api/v2/pokemon/eevee
+
+https://pokeapi.co/api/v2/pokemon/pikachu
+
+https://pokeapi.co/api/v2/pokemon/charmander
+
+https://pokeapi.co/api/v2/pokemon/arceus
+
+https://pokeapi.co/api/v2/pokemon/mewtwo
+
+
+
+
+eevee:
+{
+    "abilities": [
+        {
+            "ability": {
+                "name": "run-away",
+                "url": "https://pokeapi.co/api/v2/ability/50/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        },
+        {
+            "ability": {
+                "name": "adaptability",
+                "url": "https://pokeapi.co/api/v2/ability/91/"
+            },
+            "is_hidden": false,
+            "slot": 2
+        },
+        {
+            "ability": {
+                "name": "anticipation",
+                "url": "https://pokeapi.co/api/v2/ability/107/"
+            },
+            "is_hidden": true,
+            "slot": 3
+        }
+    ],
+Pikachu:
+{
+    "abilities": [
+        {
+            "ability": {
+                "name": "static",
+                "url": "https://pokeapi.co/api/v2/ability/9/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        },
+        {
+            "ability": {
+                "name": "lightning-rod",
+                "url": "https://pokeapi.co/api/v2/ability/31/"
+            },
+            "is_hidden": true,
+            "slot": 3
+        }
+    ],
+
+arceus:
+{
+    "abilities": [
+        {
+            "ability": {
+                "name": "multitype",
+                "url": "https://pokeapi.co/api/v2/ability/121/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        }
+    ],
+
+
+
+Charmander:
+{
+    "abilities": [
+        {
+            "ability": {
+                "name": "blaze",
+                "url": "https://pokeapi.co/api/v2/ability/66/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        },
+        {
+            "ability": {
+                "name": "solar-power",
+                "url": "https://pokeapi.co/api/v2/ability/94/"
+            },
+            "is_hidden": true,
+            "slot": 3
+        }
+    ],
+mewtwo:
+{
+    "abilities": [
+        {
+            "ability": {
+                "name": "pressure",
+                "url": "https://pokeapi.co/api/v2/ability/46/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        },
+        {
+            "ability": {
+                "name": "unnerve",
+                "url": "https://pokeapi.co/api/v2/ability/127/"
+            },
+            "is_hidden": true,
+            "slot": 3
+        }
+    ],
