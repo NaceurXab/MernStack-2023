@@ -3,7 +3,8 @@ const app = express();
 const port = 8000;
 
 
-const faker = require("faker");
+const faker = require("@faker-js/faker");
+console.log(faker.datatype);
 
 const User = () => ({
     _id: faker.datatype.uuid(),
